@@ -7,4 +7,6 @@ Utilizing the full MERN stack to do so: M(ongoose/MongoDb), E(xpress), R(eact), 
 - Run server (express) `node api/index.js`
 - Run react js `yarn start`
 
-
+## Why use NoSQL(mongoDB)?
+First because I use the MERN scheme. 
+In addition, because the data is still simple, it will be easier to use n NoSQL.
