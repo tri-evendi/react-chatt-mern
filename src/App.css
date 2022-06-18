@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  background: -webkit-linear-gradient(#EB5757, #D59152);
+  background: -o-linear-gradient(#EB5757, #D59152);
+  background: -moz-linear-gradient(#EB5757, #D59152);
+  background: linear-gradient(#EB5757, #D59152);
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  padding: 50px;
+  margin: 1vh;
+  font-size: 2vw;
+  width: 60%;
+}
+
+#header img {
+  height: 4vw;
+}
+
+#body-container {
+  display: block;
+  margin: 0.25vh;
+  width: 60%;
+  gap: 1vh;
+}
+
+#top-screen {
+  display: block;
+  text-align: center;
+  justify-content: space-between;
+  gap: 2vh;
+  width: 100%;
+}
+
+#market-space {
+  margin: auto;
+  display: table;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#market-space img {
+  max-width: 80px;
+}
+
+#bottom-screen {
+  display: block;
+  justify-content: center;
+  width: 100%;
+}
+
+#chat-box {
+  outline: 2px solid lightblue;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin: 1vh 2vw;
+  height: 35vh;
+  word-wrap: break-word;
+  padding: 0.5rem;
+}
+
+#chat-box p {
+  margin-top: 1vh;
+  font-size: 14px;
+}
+
+#chat-box h3 {
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 1vh;
+}
+
+#chat-box h2 {
+  font-size: 1.25vw;
+}
+
+#chat-box h2 span {
+  color: lightblue;
+}
+
+#input-forms {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 5vh;
+  margin-top: 5vh;
+}
+
+#input-forms #username-input {
+  width: 10vw;
+  height: 4vh;
+  padding: 0.2rem;
+  margin-top: 0.5vh;
+}
+
+#input-forms #message-input {
+  width: 31vw;
+  height: 5vh;
+  min-height:15px;
+  resize: none;
+  padding-left: 0.5vw;
+  padding-top: 0.5vh;
+}
+
+#input-forms button {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  width: 10vw;
+  min-height:20px;
+  padding:0.2rem;
+}
