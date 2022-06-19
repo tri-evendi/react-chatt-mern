@@ -6,7 +6,7 @@ Utilizing the full MERN stack to do so: M(ongoose/MongoDb), E(xpress), R(eact), 
 - React
 - Node
 
-## Intruction
+## Instruction
 - Clone this repository
 - Create database mongoDB, then setup `MONGODB_URI=` in .env
 - Run server (express) `node api/index.js`
